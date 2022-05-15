@@ -1,0 +1,54 @@
+/* <!--Name : CHAN YIK TUNG, STUDENT ID: 21000500s --> */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    display: flex;
+    padding: 0 10px;
+    align-items: center;
+    justify-content:center;
+    min-height: 100vh;
+    
+}
+.container{
+    width: 400px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    border-radius: 10px;
+    padding: 30px;
+}
+.container h2{
+   text-align: center;
+   color: #0d6efd;
+   margin-bottom: 10px;
+}
+.container img{
+    padding-left: 35%;
+    width: 130px;
+}
+
+
+.container p{
+    padding-bottom: 20px;
+    font-size: 13px;
+}
+.container button{
+    width: 100%;
+    border-radius: 30px;
+    margin-top: 10px;
+    padding: 10px;
+    background: #0d6efd;
+    color: white;
+    font-size: 16px;
+    border: 0;
+}
+.field{
+    display: flex;
+    justify-content: space-between;
+    font-weight: 600;
+}
+a{
+    text-decoration: none;
+    color: white;
+}

@@ -1,0 +1,162 @@
+/* <!--Name : CHAN YIK TUNG, STUDENT ID: 21000500s --> */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.navbar{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 30px 0;
+    background: #000;
+    
+}
+nav{
+    flex: 1;
+    text-align: right;
+    padding-right: 8%;
+    
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 30px;
+}
+nav ul li a img{
+    width: 30px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+}
+nav ul li a:hover{
+    color: #ff5ea2;
+}
+nav ul li a img:hover{
+    background-color: #ff5ea2;
+    border-radius: 50%;
+}
+body{
+    background-color:#f9fbff;
+}
+.body{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+form{
+    margin-top: 40px;
+    margin-left: 25px;
+}
+h1{
+    padding-bottom: 5px;
+}
+
+.wrapper{
+    display: inline-flex;
+    overflow: hidden;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
+    margin-bottom: 20px;
+}
+.radio__input{
+    display: none;
+}
+.radio__label{
+    padding: 8px 14px;
+    font-size: 14px;
+    color: #0D6EFD;
+    background: #fff;
+    cursor: pointer;
+    transition: background 0.1s;
+}
+.radio__label:not(:last-of-type){
+    border-right: 1px solid #0D6EFD;
+}
+.radio__input:checked + .radio__label{
+    background: #0D6EFD;
+    color: #fff;
+}
+
+.field{
+    height: 30px;
+}
+form .field input{
+    outline: none;
+    border:1px solid #bfbfbf;
+    border-radius: 5px;
+    padding: 0 18px;
+    height:30px;
+    font-size: 12px;
+}
+form .field input::placeholder{
+    color: #bfbfbf;
+}
+form .field input:focus{
+    border: 2px solid #0d6efd;
+}
+form .button{
+    margin: 25px 0;
+    
+}
+.button button{
+    padding: 13px 25px;
+    border-radius: 40px;
+    border: none;
+    color: #fff;
+    letter-spacing: 2px;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 600;
+    background: linear-gradient(90deg, #755bea, #55e7fc);
+    cursor: pointer;
+}
+
+
+
+.container{
+    margin:10px 25px 25px 25px;
+    justify-content:center;
+    align-items:center;
+    display:grid;
+}
+.content-table{
+    border-collapse:collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    min-width: 400px;
+    border-radius : 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    text-align: center;
+    
+}
+.content-table thead{
+    box-shadow: 0 5px 10px #e1e5ee;
+}
+.content-table th{
+    padding:1rem 2rem;
+    text-transform:uppercase;
+    letter-spacing:0.1rem;
+    font-weight:900;
+}
+
+.content-table thead tr{
+    text-align: center;
+    font-weight: bold;
+}
+.content-table td{
+    padding:10px 2rem;
+}
+
+.content-table tbody tr:nth-of-type(even){
+    background-color:#f4f6fb;   
+}
+
+.content-table .col{
+    color: #0D6EFD;
+}
+td[colspan='8']{
+    text-align: center;
+}
